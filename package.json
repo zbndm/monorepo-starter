@@ -1,5 +1,4 @@
 {
-
   "private": true,
   "scripts": {
     "postinstall": "pnpm build",
@@ -33,5 +32,19 @@
   "packageManager": "pnpm@7.22.0",
   "engines": {
     "node": ">=18.0.0"
-  }
+  },
+  "name": "c1a",
+  "description": "",
+  "version": "1.0.0",
+ 
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zbndm/monorepo-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zbndm/monorepo-starter/issues"
+  },
+  "homepage": "https://github.com/zbndm/monorepo-starter#readme"
 }
