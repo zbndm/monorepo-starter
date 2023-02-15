@@ -2,20 +2,7 @@
   "name": "c1a",
   "version": "0.0.13",
   "description": "Example hello world package in the your-repository-name repository.",
-  "license": "MIT",
-  "author": "your-author-name",
-  "contributors": [],
-  "homepage": "https://github.com/your-nickname/your-repository-name#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/your-nickname/your-repository-name.git"
-  },
-  "bugs": {
-    "url": "https://github.com/your-nickname/your-repository-name/issues"
-  },
-  "keywords": [
-    "solid"
-  ],
+
   "private": true,
   "sideEffects": false,
   "publishConfig": {
