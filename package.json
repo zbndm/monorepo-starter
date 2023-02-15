@@ -7,7 +7,7 @@
     "test": "turbo run test --filter=./packages/*",
     "typecheck": "turbo run typecheck --filter=./packages/*",
     "build-test": "turbo run build test typecheck --filter=./packages/*",
-    "format": "prettier --ignore-path .gitignore -w \"packages/**/*.{js,ts,json,css,tsx,jsx,md}\" \"playgrounds/**/*.{js,ts,json,css,tsx,jsx,md}\"",
+    "format": "prettier --ignore-path .gitignore -w \"packages/**/*.{js,ts,json,css,tsx,jsx,md}\"",
     "changeset": "changeset",
     "version-packages": "changeset version && pnpm i",
     "ci:version": "changeset version && pnpm i --no-frozen-lockfile && git add .",
@@ -33,10 +33,10 @@
   "engines": {
     "node": ">=18.0.0"
   },
-  "name": "c1a",
-  "description": "",
+  "name": "monorepo-starter",
+  "description": "<p>   <img width=\"100%\" src=\"https://assets.solidjs.com/banner?type=your-repository-name&background=tiles&project=Monorepo\" alt=\"your-repository-name Monorepo\"> </p>",
   "version": "1.0.0",
- 
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zbndm/monorepo-starter.git"
