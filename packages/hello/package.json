@@ -1,6 +1,6 @@
 {
   "name": "c1a",
-  "version": "0.0.13",
+  "version": "0.0.12",
   "description": "Example hello world package in the your-repository-name repository.",
 
   "private": true,
